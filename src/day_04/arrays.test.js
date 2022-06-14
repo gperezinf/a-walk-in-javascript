@@ -26,27 +26,27 @@ let hotPeppers = [
 
 describe('DAY 4: Test Arrays', () => {
 
-    it('Array to be instance of Array (literal)', () => {
-        // use literal notation
+    it('array should be an instance of Array (literal)', () => {
+        // Define the array using literal notation
         let array;
         expect(array).toBeInstanceOf(Array);
     });
 
-    it('Array to be instance of Array (constructor)', () => {
-        // use constructor
+    it('array should be an instance of Array (constructor)', () => {
+        // Define the array using a constructor
         let array;
         expect(array).toBeInstanceOf(Array);
     });
 
-    it('Array to be instance of Object and Array', () => {
-        // use any of the previous
+    it('array should be an instance of Object and Array', () => {
+        // Use any of the previous
         let array;
         expect(array).toBeInstanceOf(Array);
         expect(array).toBeInstanceOf(Object);
     });
 
     it('Initialize Array with length of 4 (literal)', () => {
-        // use literal
+        // use literal notation
         let array;
         expect(array.length).toBe(4);
     });
@@ -150,18 +150,20 @@ describe('DAY 4: Test Arrays', () => {
 
         /**
          * 
-         * iterate over a ( you can use an iteration statement or an array method )
+         * iterate over array a ( you can use an iteration statement or an array method )
          * validate each value has been correctly copied
          * 
          */
 
         //! add your code here
 
-        // ? why a IS NOT b? explain
+        //? why a IS NOT b? explain
         expect(a).not.toBe(b);
-        // ? but IS EQUAL to b? explain
+
+        //? but a IS EQUAL to b? explain
         expect(a).toEqual(b);
-        // ? then why a[5] ACTUALLY IS b[5]
+        
+        //? then why a[5] ACTUALLY IS b[5]? explain
         expect(a[5]).toBe(b[5]);
 
     });
@@ -169,7 +171,7 @@ describe('DAY 4: Test Arrays', () => {
     it('Find an element by value using an array method', () => {
         let array = hotPeppers;
         let myFavorite = 'Habanero';
-        // use an array method
+        // use an array method to define the found variable as 'Habanero'
         let found;
 
         expect(found).toBe(myFavorite);

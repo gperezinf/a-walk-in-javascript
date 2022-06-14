@@ -2,6 +2,8 @@
 describe('DAY 7: arrow functions', () => {
 
     it(`complete the function code to pass the test`, () => {
+        
+        // Make the fuction return the expected object
 
         let myArrowFunction = () => { };
 

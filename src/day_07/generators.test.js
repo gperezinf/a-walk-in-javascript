@@ -6,9 +6,9 @@ describe('DAY 7: generators', () => {
         var msg = [`don't`, `repeat`, `yourself`];
 
         /**
-         * Modify the function to return a Generator object
+         * Modify the function to take an argument and return a Generator object
          * complete the body of the generator using a for...of statement
-         * iterate over the iterable input and yeild the valuefor...of loop
+         * iterate over the iterable input and yield the value in the for...of loop
          * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
          * 
          * @param {array} input

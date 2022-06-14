@@ -1,6 +1,6 @@
 describe('DAY 5: Test Grouping', () => {
 
-    it('change the code to make the second expect throw and error', () => {
+    it('change the code to make the second expect throw an error', () => {
         let a;
         let b;
 

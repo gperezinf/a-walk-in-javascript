@@ -18,7 +18,7 @@ describe('DAY 6: Test closure', () => {
         expect(b).toBe(6);
     });
 
-    it(`function c to change variable a and b through a closure (side effect)`, () => {
+    it(`function c should change variable a and b through a closure (side effect)`, () => {
 
         let a = 9;
         let b = function () {};

@@ -1,7 +1,8 @@
 
 describe('DAY 5: Test Branching - if...else', () => {
 
-    it('b to be true if a is truthy', () => {
+    it('b should be true if a is truthy', () => {
+        // Define a first
         let a;
         let b;
 
@@ -15,7 +16,7 @@ describe('DAY 5: Test Branching - if...else', () => {
 
     });
 
-    it('b to be false if a is truthy', () => {
+    it('b should be false if a is truthy', () => {
         let a;
         let b;
 
@@ -29,7 +30,7 @@ describe('DAY 5: Test Branching - if...else', () => {
 
     });
 
-    it('b to be 1 if a is truthy ( use postfix unary operator )', () => {
+    it('b should be 1 if a is truthy ( use postfix unary operator )', () => {
         let a;
         let b = 0;
 
@@ -43,7 +44,7 @@ describe('DAY 5: Test Branching - if...else', () => {
 
     });
 
-    it('b to be -1 if a is truthy ( use prefix unary operator )', () => {
+    it('b should be -1 if a is truthy ( use prefix unary operator )', () => {
         let a;
         let b = 0;
 
@@ -61,7 +62,8 @@ describe('DAY 5: Test Branching - if...else', () => {
 
 describe('DAY 5: Test Branching - switch/break', () => {
 
-    it('found to be true when number 7 is the first item of array', () => {
+    it('found should be true when number 7 is the first item of array', () => {
+        // Define some array elements first
         let array = [];
         let found = false;
 
@@ -80,7 +82,7 @@ describe('DAY 5: Test Branching - switch/break', () => {
 
     });
 
-    it('found to be true when number 7 is not an item of array', () => {
+    it('found should be true when number 7 is not an item of array', () => {
         let array = [];
         let found = false;
 
@@ -99,7 +101,7 @@ describe('DAY 5: Test Branching - switch/break', () => {
 
     });
 
-    it('found to be true when number 7 is at index 4 of array', () => {
+    it('found should be true when number 7 is at index 4 of array', () => {
         let array = [];
         let found = false;
 
@@ -119,7 +121,7 @@ describe('DAY 5: Test Branching - switch/break', () => {
 
     });
 
-    it('found to be true when number 7 is at index 2 or 3 or 4 of array ( wanna try Fallthrough? )', () => {
+    it('found should be true when number 7 is at index 2 or 3 or 4 of array ( wanna try Fallthrough? )', () => {
         let array = [];
         let found = false;
 
@@ -143,7 +145,7 @@ describe('DAY 5: Test Branching - switch/break', () => {
 
 describe('DAY 5: Test Branching - short circuit', () => {
 
-    it('c to be "hell yeah" using logical AND to evaluate a AND b, AND the value assigned to c', () => {
+    it('c should be "hell yeah" using logical AND to evaluate a AND b, AND the value assigned to c', () => {
         let a;
         let b;
         let c = a && b && 'hell yeah';
@@ -152,7 +154,7 @@ describe('DAY 5: Test Branching - short circuit', () => {
 
     });
 
-    it('c to be "hell yeah" using logical OR to evaluate a OR b, AND the value assigned to c ( find the error and fix it )', () => {
+    it('c should be "hell yeah" using logical OR to evaluate a OR b, AND the value assigned to c ( find the error and fix it )', () => {
         let a = 1;
         let b;
         let c = a || b && 'hell yeah';
@@ -161,7 +163,7 @@ describe('DAY 5: Test Branching - short circuit', () => {
 
     });
 
-    it('c to be true IF a AND b are numbers and > than 42', () => {
+    it('c should be true IF a AND b are numbers and > than 42', () => {
         // read the test spec carefully before start coding ;)
         let a;
         let b;
@@ -174,7 +176,7 @@ describe('DAY 5: Test Branching - short circuit', () => {
 
 describe('DAY 5: Test Branching - conditional operator ( ternary )', () => {
 
-    it('c to be true IF a AND b are numbers and > than 42, else it should be false', () => {
+    it('c to should be IF a AND b are numbers and > than 42, else it should be false', () => {
 
         let a = null;
         let b = null;

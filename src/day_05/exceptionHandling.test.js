@@ -3,6 +3,8 @@ describe('DAY 5: Test Exception Handling', () => {
     it('throw explicitly an error and on catch define a as true', () => {
         let a;
 
+        // use try..catch syntax
+        
         expect(a).toBe(true);
 
     });
